@@ -1,22 +1,25 @@
 {
   "name": "museo-project",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "-": "^0.0.1",
     "axios": "^1.7.7",
     "express": "^4.19.2",
+    "g": "^2.0.1",
     "museo-project": "file:",
-    "node-google-translate-skidz": "^1.1.2",
-    "pug": "^3.0.3"
+    "node-google-translate-skidz": "^1.0.0",
+    "pug": "^3.0.3",
+    "vercel": "^28.18.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
